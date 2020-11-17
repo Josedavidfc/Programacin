@@ -1,4 +1,4 @@
-package UT3;
+package UT4;
 import java.util.Scanner;
 /* @author Jose David
  * Ejercicio 15. 

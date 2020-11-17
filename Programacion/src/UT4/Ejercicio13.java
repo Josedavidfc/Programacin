@@ -1,4 +1,4 @@
-package UT3;
+package UT4;
 import java.util.Scanner;
 /* Ejercicio 13. 
  * Pedir una nota de 0 a 10 y mostrarla de la forma: 

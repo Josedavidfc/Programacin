@@ -1,20 +1,21 @@
 /**
  * 
  */
-package UT3;
+package UT4;
 
 import java.util.Scanner;
 
 /**
  * @author josedavidfernandezcomino
- * Pedir numero inicio y numero fin, e intervalo y devolver lista de numeros.
+ *Ejercicio 17
  */
-public class Ejercicio16 {
+public class Ejercicio17 {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		int aux;
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Escribe un numero inicial");
 		int start = entrada.nextInt();
@@ -23,13 +24,15 @@ public class Ejercicio16 {
 		System.out.println("Escribe un intervalo");
 		int intervalo = entrada.nextInt();
 		
-		for(int i = start; i <=stop; i = i+intervalo) {
-			System.out.println(i + " ");
+		if(stop<start) {
+			aux = stop;
+			stop = start;
+			start = aux;
+		}
+		for (int i = start; i <= stop; i =i + intervalo) {
+			System.out.print(i + " ");
 		}
 		
-		
-		
-		entrada.close();
 	}
 
 }
