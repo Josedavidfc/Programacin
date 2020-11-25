@@ -15,9 +15,7 @@ public class Ejercicio65 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int enteros [] = new int [10];
-		int creciente = 0;
-		int decreciente = 0;
-		int desordenado = 0;
+		
 		
 		//Bucle para recorrer array y completarlo con valores introducidos por el usuario
 		for (int i=0; i<enteros.length; i++) {
