@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 /**
  * @author josedavidfernandezcomino
- *
+ *...
  */
 public class Proyecto3 {
 
